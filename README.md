@@ -12,6 +12,18 @@ Universal binary (Apple Silicon + Intel).
 
 ## Install
 
+### Homebrew
+
+```bash
+brew install acarmucahit/tap/napbar
+ln -sf "$(brew --prefix)/opt/napbar/NapBar.app" /Applications/NapBar.app
+open /Applications/NapBar.app
+```
+
+This builds NapBar from source on your Mac, so there is no Gatekeeper prompt.
+
+### Download
+
 Download `NapBar.app.zip` from the [latest release](https://github.com/acarmucahit/napbar/releases/latest),
 unzip it and move `NapBar.app` to `/Applications`.
 
