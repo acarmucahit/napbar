@@ -16,7 +16,7 @@ Universal binary (Apple Silicon + Intel).
 
 ```bash
 brew install acarmucahit/tap/napbar
-ln -sf "$(brew --prefix)/opt/napbar/NapBar.app" /Applications/NapBar.app
+ln -sfn "$(brew --prefix)/opt/napbar/NapBar.app" /Applications/NapBar.app
 open /Applications/NapBar.app
 ```
 
